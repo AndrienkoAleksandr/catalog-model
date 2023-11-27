@@ -30,8 +30,7 @@ metadata:
       icon: alert
   annotations:
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
-    jenkins.io/job-full-name: maven
-    jenkins.io/github-folder: maven
+    jenkins.io/job-full-name: 'default:team-a/maven'
 spec:
   type: service
   lifecycle: experimental
