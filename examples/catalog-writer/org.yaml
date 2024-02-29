@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of catalog-writer example Groups
+spec:
+  targets:
+    - ./backstage-group.yaml
+    - ./catalog-writers.yaml
+    - ./managers-group.yaml
+    - ./qa-group.yaml
+    - ./team-developers-project-a-group.yaml
