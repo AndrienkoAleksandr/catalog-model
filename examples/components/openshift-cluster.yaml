@@ -1,0 +1,7 @@
+kind: Resource,
+apiVersion: 'backstage.io/v1beta1',
+metadata:
+  name: openshift-bot
+spec:
+  owner: group:default/team-a
+  type: kubernetes-cluster
