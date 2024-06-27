@@ -37,7 +37,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: logarifm
+  owner: user:default/logarifm
   system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
   apiConsumedBy: ['component:www-artist']
