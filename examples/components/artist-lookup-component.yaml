@@ -34,6 +34,7 @@ metadata:
   annotations:
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
     jenkins.io/job-full-name: 'default:team-a/maven'
+    quay.io/repository-slug: 'aandriienko/alpine'
 spec:
   type: service
   lifecycle: experimental
