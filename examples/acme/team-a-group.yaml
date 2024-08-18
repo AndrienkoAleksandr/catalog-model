@@ -18,7 +18,7 @@ metadata:
   name: AndrienkoAleksandr
 spec:
   profile:
-    # Intentional no displayName for testing
+    displayName: Oleksander Andriienko
     email: oandriie@redhat.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
   memberOf: [team-a]
