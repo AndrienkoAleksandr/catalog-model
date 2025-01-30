@@ -38,7 +38,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: user:default/logarifm
+  owner: user:default/cyber-stalker-bit
   system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
   apiConsumedBy: ['component:www-artist']
