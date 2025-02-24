@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-namespace: rhdh
   labels:
-    backstage.io/kubernetes-id: rhdh
+    backstage.io/kubernetes-id: example-pod
 spec:
   type: service
   lifecycle: production
