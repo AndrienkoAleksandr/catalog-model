@@ -4,9 +4,9 @@ metadata:
   name: wayback-archive-storage
   description: Storage subsystem of the Wayback Archive
   annotations:
-    "backstage.io/kubernetes-namespace": rhdh
+    backstage.io/kubernetes-namespace: rhdh
   labels:
-    "backstage.io/kubernetes-id": rhdh
+    backstage.io/kubernetes-id: rhdh
 spec:
   type: service
   lifecycle: production
