@@ -5,7 +5,6 @@ metadata:
   description: Storage subsystem of the Wayback Archive
   annotations:
     backstage.io/kubernetes-namespace: rhdh
-  labels:
     backstage.io/kubernetes-id: example-pod
 spec:
   type: service
