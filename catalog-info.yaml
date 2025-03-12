@@ -4,6 +4,8 @@ metadata:
   name: catalog-model
   annotations:
     github.com/project-slug: AndrienkoAleksandr/catalog-model
+  labels:
+    test: for-test
 spec:
   type: other
   lifecycle: unknown
