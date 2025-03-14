@@ -4,6 +4,8 @@ metadata:
   name: create-incident-record
   title: Create Incident Record
   description: Create a record in the incident table
+  tags:
+    - gitlab
 spec:
   owner: team-b
   type: service
