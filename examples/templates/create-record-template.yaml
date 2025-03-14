@@ -7,7 +7,6 @@ metadata:
 spec:
   owner: team-b
   type: service
-  owner: user:default/admin
   parameters:
     - title: Incident Details
       required:
