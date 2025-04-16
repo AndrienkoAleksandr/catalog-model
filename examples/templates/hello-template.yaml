@@ -27,4 +27,4 @@ spec:
 
   output:
     text:
-      - "Successfully greeted ${{ parameters.name }}"
+      - message: "Successfully greeted ${{ parameters.name }}"
