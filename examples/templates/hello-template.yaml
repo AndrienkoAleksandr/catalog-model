@@ -1,0 +1,30 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: hello-world-template
+  title: Hello World Template
+  description: A simple template that prints "Hello, World!"
+spec:
+  owner: user:guest
+  type: service
+
+  parameters:
+    - title: Basic Info
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          title: Your name
+          description: The name to include in the greeting
+
+  steps:
+    - id: log-message
+      name: Say Hello
+      action: debug:log
+      input:
+        message: "Hello, ${{ parameters.name }}!"
+
+  output:
+    text:
+      message: "Successfully greeted ${{ parameters.name }}"
