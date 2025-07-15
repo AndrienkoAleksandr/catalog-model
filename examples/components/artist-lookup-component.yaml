@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: artist-lookup
   description: Artist Lookup
-  tags: private
   tags:
+    - private
     - java
     - data
   labels:
