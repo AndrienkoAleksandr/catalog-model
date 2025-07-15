@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: artist-lookup
   description: Artist Lookup
+  tags: private
   tags:
     - java
     - data
@@ -35,7 +36,6 @@ metadata:
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
     jenkins.io/job-full-name: 'default:team-a/maven'
     quay.io/repository-slug: 'aandriienko/alpine'
-    tags: private
 spec:
   type: service
   lifecycle: experimental
