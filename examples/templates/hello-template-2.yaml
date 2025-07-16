@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: hello-world-template
+  name: hello-world-template-2
   title: Hello World Template
   description: A simple template that prints "Hello, World!"
 spec:
