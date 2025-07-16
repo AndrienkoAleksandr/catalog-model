@@ -7,3 +7,4 @@ spec:
   targets:
     - ./templates/hello-template.yaml
     - ./templates/create-record-template.yaml
+    - ./templates/hello-template-2.yaml
