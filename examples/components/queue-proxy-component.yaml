@@ -4,6 +4,7 @@ metadata:
   name: queue-proxy
   description: Queue Proxy
   tags:
+    - private
     - go
     - website
 spec:
