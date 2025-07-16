@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./templates/hello-template.yaml
+    - ./templates/create-record-template.yaml
