@@ -6,6 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-namespace: rhdh
     backstage.io/kubernetes-id: developer-hub
+    servicenow.com/entity-id: website-for-my-nice-service
 spec:
   type: service
   lifecycle: production
