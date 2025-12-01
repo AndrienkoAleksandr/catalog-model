@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: wayback-email-storage
+  description: Email storage subsystem of the wayback
+  annotations:
+    backstage.io/kubernetes-namespace: rhdh
+    backstage.io/kubernetes-id: developer-hub
+    servicenow.com/service: email
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
+  subcomponentOf: wayback-archive
