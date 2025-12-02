@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: wayback-mongo-storage
+  description: Mongo storage subsystem of the wayback
+  annotations:
+    backstage.io/kubernetes-namespace: rhdh
+    backstage.io/kubernetes-id: developer-hub
+    servicenow.com/u_service: oandriie@rehdhat.com
+    servicenow.com/u_company: RedHat
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
+  subcomponentOf: wayback-archive
