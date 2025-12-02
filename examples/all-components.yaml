@@ -20,3 +20,4 @@ spec:
     - ./components/wayback-search-component.yaml
     - ./components/jfrog-component.yaml
     - ./components/wayback-email-storage.yaml
+    - ./components/wayback-mongo-storage.yaml
