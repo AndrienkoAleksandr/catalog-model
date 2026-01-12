@@ -6,8 +6,8 @@ metadata:
   annotations:
     backstage.io/kubernetes-namespace: rhdh
     backstage.io/kubernetes-id: developer-hub
-    servicenow.com/u_service: email
-    servicenow.com/u_company: RedHat
+    servicenow.com/service: email
+    servicenow.com/company: RedHat
 spec:
   type: service
   lifecycle: production
