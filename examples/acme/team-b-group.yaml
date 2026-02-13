@@ -26,6 +26,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: logarithmexpsum
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: logarithmexpsum@gmail.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [team-b]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: logarifm
   annotations:
    'bitbucket.org/username': 'logarifm'
