@@ -18,4 +18,4 @@ spec:
   lifecycle: experimental
   owner: team-c
   definition:
-    $text: ./petstore-webhook.oas.yaml
+    $openapi: ./petstore-webhook.oas.yaml
