@@ -33,6 +33,7 @@ metadata:
       title: Alerts
       icon: alert
   annotations:
+    backstage.io/createdAt: '2026-10-30T15:00:00Z'
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
     jenkins.io/job-full-name: 'default:team-a/maven'
     quay.io/repository-slug: 'aandriienko/alpine'
